@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <p href>My<span style="color: #07c8f9">Site</span></p>
+      <ul id="nav-list" type="none">
+        <a href="index.html" id="home-link">Home</a>
+        <a href="about.html" id="project-link">About me</a>
+        <a href="social.html" id="social-link">Social</a>
+      </ul>
+    </nav>
+    <section id="project-content">
+      <h1 id="section-title">
+        Project <span style="color: #0c63e7">Portfolio</span>
+      </h1>
+      <div class="carousel">
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <div class="carousel-images">
+          <img
+            src="Assets/carousel1.jpg"
+            class="carousel-image active"
+            alt="Gambar 1"
+          />
+          <img
+            src="Assets/carousel2.jpg"
+            class="carousel-image"
+            alt="Gambar 2"
+          />
+          <img
+            src="Assets/carousel3.png"
+            class="carousel-image"
+            alt="Gambar 3"
+          />
+          <img
+            src="Assets/carousel4.png"
+            class="carousel-image"
+            alt="Gambar 4"
+          />
+        </div>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+      </div>
+      <p id="carousel-title">Project XBooks</p>
+    </section>
+    <!-- My Site Section -->
+    <section id="project-content">
+      <h1 id="section-title">
+        My Site<span style="color: #0c63e7"> Project</span>
+      </h1>
+      <p style="width: 900px; align-items: center">
+        My Site adalah project website yang berisi tentang informasi tentang
+        saya, di dalamnya terdapat CV (<em>Curriculum Vitae</em>), media sosial
+        saya, dan juga foto beberapa project saya.
+      </p>
+      <h1 id="section-title">X<span style="color: #0c63e7">Books</span></h1>
+      <p style="width: 900px; align-items: center">
+        XBooks adalah website yang saya gunakan untuk berlatih framework react
+        dan express.js, Xbooks adalah website koleksi buku kecil-kecilan untuk
+        latihan saya.
+      </p>
+      <h1 id="section-title">
+        Project <span style="color: #0c63e7">Overview</span>
+      </h1>
+      <table>
+        <tr>
+          <th>Nama Projek</th>
+          <th>Deskripsi</th>
+          <th>Styling</th>
+          <th>Scripting</th>
+        </tr>
+        <tr>
+          <td>MySite</td>
+          <td>Personal Portfolio Website</td>
+          <td>Native HTML, CSS</td>
+          <td>Javascript</td>
+        </tr>
+        <tr>
+          <td>XBooks</td>
+          <td>Book collection website</td>
+          <td>React Framework, Tailwind CSS</td>
+          <td>Javascript</td>
+        </tr>
+      </table>
+    </section>
+    <footer>
+      <div id="footer-brand">
+        <h1 style="color: white; font-size: 30px">MySite</h1>
+      </div>
+      <div id="footer-content">
+        <div id="footer-navigation">
+          <a href="index.html" style="color: white">Home</a>
+          <a href="about.html" style="color: white">About me</a>
+          <a href="project.html" style="color: white">Projects</a>
+          <a href="social.html" style="color: white">Social</a>
+        </div>
+        <div style="display: flex; flex-direction: column">
+          <h1 style="font-size: 20px">Kunjungi media sosialku</h1>
+          <a href="" style="color: white">Instagram</a>
+          <a href="" style="color: white">Whatsapp</a>
+          <a href="" style="color: white">Github</a>
+        </div>
+      </div>
+      <div style="padding-top: 10px">
+        <p style="font-weight: bold">
+          &copy; 2025 Devante. Seluruh hak cipta dilindungi.
+        </p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
